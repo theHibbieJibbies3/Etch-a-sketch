@@ -1,0 +1,23 @@
+
+#board{
+    display:flex;
+    border: 2px solid black;
+    height:90vh;
+    width: 90vh;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex: 1 1 auto ;
+}
+
+.pixel{
+    box-sizing: border-box;
+    min-height: 0;
+    min-width: 0;
+    flex: 1 1 auto ;
+    /* border:1px solid red; */
+    
+}
+/* .pixel:hover{
+    transition-duration: 0ms;
+    background-color: black;
+} */
